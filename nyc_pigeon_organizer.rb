@@ -1,4 +1,6 @@
 def nyc_pigeon_organizer(data)
+  pigeon_name_list = {}
+  
   data.each do |hash_1, key_1|
   key_1.each do |hash_2, key_2|
     key_2.each do |name|
@@ -30,4 +32,7 @@ data[:lives].each do |hash_1, key_1|
     end
   end
 end
+
+pigeon_name_list
+
 end
